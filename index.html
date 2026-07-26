@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Devasena G | IT Student &amp; Aspiring ML Engineer</title>
+<meta name="description" content="Portfolio of Devasena G — Information Technology student, aspiring Machine Learning Engineer, Python &amp; Flask Developer." />
+
+<!-- Google Fonts: Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================= -->
+<!-- NAVIGATION BAR -->
+<!-- ============================================= -->
+<header class="navbar">
+  <nav class="nav container">
+    <a href="#home" class="logo">DG<span class="logo-dot">.</span></a>
+
+    <!-- Hamburger checkbox hack: pure CSS mobile menu -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ============================================= -->
+<!-- HERO SECTION -->
+<!-- ============================================= -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-text">
+      <p class="hero-eyebrow"><span class="pulse-dot"></span>Available for opportunities</p>
+      <h1 class="hero-heading">
+        Hi, I'm <br>
+        <span class="gradient-text">Devasena G</span>
+      </h1>
+      <h2 class="hero-subtitle">Information Technology Student</h2>
+
+      <p class="hero-rotator">
+        <span class="rotator-item item-1">Machine Learning Enthusiast</span>
+        <span class="rotator-item item-2">Python Developer</span>
+        <span class="rotator-item item-3">Flask Developer</span>
+      </p>
+
+      <p class="hero-desc">
+        I build intelligent web applications using Machine Learning, Flask, Python, and modern
+        web technologies while continuously learning software engineering and problem solving.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary" download>
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="https://github.com/Devasena-6666" target="_blank" rel="noopener" class="btn btn-glass">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Contact
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="avatar-frame">
+        <!-- Placeholder developer illustration (CSS/SVG based, no external image needed) -->
+        <svg viewBox="0 0 300 300" class="avatar-illustration" role="img" aria-label="Developer illustration">
+          <defs>
+            <linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#7C3AED"/>
+              <stop offset="100%" stop-color="#2563EB"/>
+            </linearGradient>
+          </defs>
+          <circle cx="150" cy="150" r="150" fill="url(#skinGrad)" opacity="0.15"/>
+          <circle cx="150" cy="120" r="55" fill="#1E293B" stroke="#06B6D4" stroke-width="3"/>
+          <path d="M70 260 Q150 170 230 260 Z" fill="#1E293B" stroke="#06B6D4" stroke-width="3"/>
+          <rect x="118" y="150" width="64" height="18" rx="9" fill="#06B6D4"/>
+          <circle cx="130" cy="115" r="6" fill="#06B6D4"/>
+          <circle cx="170" cy="115" r="6" fill="#06B6D4"/>
+          <path d="M120 140 Q150 155 180 140" stroke="#06B6D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <text x="150" y="230" text-anchor="middle" font-family="monospace" font-size="14" fill="#F8FAFC" opacity="0.7">&lt;/ &gt;</text>
+        </svg>
+      </div>
+      <div class="floating-badge badge-1"><i class="fa-brands fa-python"></i> Python</div>
+      <div class="floating-badge badge-2"><i class="fa-solid fa-flask"></i> Flask</div>
+      <div class="floating-badge badge-3"><i class="fa-solid fa-brain"></i> ML</div>
+    </div>
+
+  </div>
+  <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ============================================= -->
+<!-- ABOUT ME -->
+<!-- ============================================= -->
+<section id="about" class="section about">
+  <div class="container">
+    <p class="section-eyebrow">Get to know me</p>
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I am currently pursuing B.Tech in Information Technology with a strong passion for
+          Artificial Intelligence, Machine Learning, and Software Development. I enjoy transforming
+          innovative ideas into practical applications through coding and continuously expanding my
+          knowledge in emerging technologies.
+        </p>
+        <p>
+          I am currently strengthening my skills in Java, Data Structures &amp; Algorithms, Flask
+          Development, and Machine Learning while building real-world projects.
+        </p>
+
+        <div class="focus-box">
+          <h3><i class="fa-solid fa-bullseye"></i> Current Focus</h3>
+          <ul class="focus-list">
+            <li><i class="fa-solid fa-check"></i> Machine Learning</li>
+            <li><i class="fa-solid fa-check"></i> Python Development</li>
+            <li><i class="fa-solid fa-check"></i> Java Problem Solving</li>
+            <li><i class="fa-solid fa-check"></i> Data Structures &amp; Algorithms</li>
+            <li><i class="fa-solid fa-check"></i> Flask Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info-cards">
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-user-graduate"></i></div>
+          <h4>Student</h4>
+          <p>B.Tech IT undergraduate, always eager to learn.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+          <h4>Problem Solver</h4>
+          <p>I enjoy breaking down complex problems into solutions.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-robot"></i></div>
+          <h4>ML Enthusiast</h4>
+          <p>Fascinated by intelligent, data-driven systems.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h4>Quick Learner</h4>
+          <p>Adapting fast to new tools and technologies.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Timeline -->
+    <div class="education">
+      <h3 class="sub-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-badge">Current Student</span>
+            <h4>B.Tech — Information Technology</h4>
+            <p>Current Year of Study</p>
+            <p class="cgpa"><i class="fa-solid fa-star"></i> CGPA: 8.5 / 10 (placeholder)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- FEATURED PROJECTS -->
+<!-- ============================================= -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <p class="section-eyebrow">My Work</p>
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-car-burst"></i></div>
+        <h3>Intelligent Vehicle Insurance Claim Recommendation and Cost Estimator</h3>
+        <p>
+          An AI-powered application that detects vehicle damage, predicts repair costs, and
+          recommends insurance claim approval using Machine Learning and Flask.
+        </p>
+        <div class="tech-tags">
+          <span>Python</span><span>Flask</span><span>Machine Learning</span>
+          <span>OpenCV</span><span>Scikit-learn</span><span>Pandas</span>
+          <span>NumPy</span><span>HTML</span><span>CSS</span>
+        </div>
+        <a href="https://github.com/Devasena-6666/Intelligent-recommendation-system" target="_blank" rel="noopener" class="btn btn-project">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-bus"></i></div>
+        <h3>Smart Bus Crowd Prediction System</h3>
+        <p>
+          A computer vision based smart transportation system that predicts passenger crowd
+          levels using AI while tracking buses in real time.
+        </p>
+        <div class="tech-tags">
+          <span>Python</span><span>YOLO</span><span>OpenCV</span>
+          <span>Flask</span><span>Machine Learning</span>
+        </div>
+        <a href="https://github.com/Devasena-6666/Bus_Crowd_prediction" target="_blank" rel="noopener" class="btn btn-project">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-users-gear"></i></div>
+        <h3>Employee Management System</h3>
+        <p>
+          A web application for managing employee information using CRUD operations with
+          Flask and SQL.
+        </p>
+        <div class="tech-tags">
+          <span>Python</span><span>Flask</span><span>SQL</span>
+          <span>HTML</span><span>CSS</span>
+        </div>
+        <a href="https://github.com/Devasena-6666/Employee-Management-System" target="_blank" rel="noopener" class="btn btn-project">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- TECHNICAL SKILLS -->
+<!-- ============================================= -->
+<section id="skills" class="section skills">
+  <div class="container">
+    <p class="section-eyebrow">What I Work With</p>
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-code"></i><h3>Programming</h3></div>
+        <div class="badge-list">
+          <span class="badge">Python</span><span class="badge">Java</span>
+          <span class="badge">C</span><span class="badge">HTML</span><span class="badge">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-layer-group"></i><h3>Frameworks</h3></div>
+        <div class="badge-list">
+          <span class="badge">Flask</span><span class="badge">Scikit-learn</span><span class="badge">OpenCV</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-book"></i><h3>Libraries</h3></div>
+        <div class="badge-list">
+          <span class="badge">Pandas</span><span class="badge">NumPy</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-brain"></i><h3>Machine Learning</h3></div>
+        <div class="badge-list">
+          <span class="badge">Supervised Learning</span><span class="badge">Unsupervised Learning</span>
+          <span class="badge">Data Preprocessing</span><span class="badge">Model Training</span>
+          <span class="badge">Model Evaluation</span><span class="badge">Prediction Systems</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-microchip"></i><h3>Core CS</h3></div>
+        <div class="badge-list">
+          <span class="badge">Data Structures</span><span class="badge">OOP</span>
+          <span class="badge">Operating Systems</span><span class="badge">DBMS</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head"><i class="fa-solid fa-toolbox"></i><h3>Tools</h3></div>
+        <div class="badge-list">
+          <span class="badge">VS Code</span><span class="badge">Git</span>
+          <span class="badge">GitHub</span><span class="badge">Jupyter Notebook</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- LEARNING JOURNEY -->
+<!-- ============================================= -->
+<section id="learning" class="section learning">
+  <div class="container">
+    <p class="section-eyebrow">Always Growing</p>
+    <h2 class="section-title">Learning Journey</h2>
+
+    <div class="learning-grid">
+
+      <div class="learning-card">
+        <div class="status-tag status-learning">Learning</div>
+        <i class="fa-solid fa-mug-hot learning-icon"></i>
+        <h4>Java Problem Solving</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-practicing">Practicing</div>
+        <i class="fa-solid fa-diagram-project learning-icon"></i>
+        <h4>Data Structures</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-practicing">Practicing</div>
+        <i class="fa-solid fa-code-branch learning-icon"></i>
+        <h4>Algorithms</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-building">Building Projects</div>
+        <i class="fa-solid fa-brain learning-icon"></i>
+        <h4>Advanced Machine Learning</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-learning">Learning</div>
+        <i class="fa-solid fa-network-wired learning-icon"></i>
+        <h4>REST APIs</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-learning">Learning</div>
+        <i class="fa-solid fa-gears learning-icon"></i>
+        <h4>Software Engineering</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-practicing">Practicing</div>
+        <i class="fa-brands fa-git-alt learning-icon"></i>
+        <h4>Git Collaboration</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-learning">Learning</div>
+        <i class="fa-solid fa-database learning-icon"></i>
+        <h4>SQL Optimization</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-practicing">Practicing</div>
+        <i class="fa-solid fa-object-group learning-icon"></i>
+        <h4>Object-Oriented Design</h4>
+      </div>
+
+      <div class="learning-card">
+        <div class="status-tag status-learning">Learning</div>
+        <i class="fa-solid fa-sitemap learning-icon"></i>
+        <h4>System Design Basics</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- MACHINE LEARNING WORKFLOW -->
+<!-- ============================================= -->
+<section class="section ml-workflow">
+  <div class="container">
+    <p class="section-eyebrow">How I Approach ML</p>
+    <h2 class="section-title">Machine Learning Workflow</h2>
+
+    <div class="workflow-track">
+      <div class="workflow-step">
+        <div class="workflow-num">1</div>
+        <i class="fa-solid fa-database"></i>
+        <p>Dataset Collection</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">2</div>
+        <i class="fa-solid fa-broom"></i>
+        <p>Data Cleaning</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">3</div>
+        <i class="fa-solid fa-sliders"></i>
+        <p>Feature Engineering</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">4</div>
+        <i class="fa-solid fa-scissors"></i>
+        <p>Train Test Split</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">5</div>
+        <i class="fa-solid fa-dumbbell"></i>
+        <p>Model Training</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">6</div>
+        <i class="fa-solid fa-chart-line"></i>
+        <p>Model Evaluation</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">7</div>
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <p>Prediction</p>
+      </div>
+      <div class="workflow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+
+      <div class="workflow-step">
+        <div class="workflow-num">8</div>
+        <i class="fa-solid fa-rocket"></i>
+        <p>Flask Deployment</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- CAREER OBJECTIVE -->
+<!-- ============================================= -->
+<section class="section career">
+  <div class="container">
+    <div class="career-box glass-card">
+      <i class="fa-solid fa-flag-checkered career-icon"></i>
+      <h2>Career Goal</h2>
+      <p>
+        I aim to become a skilled Software Engineer and Machine Learning Engineer by
+        continuously learning modern technologies and developing impactful software
+        solutions that solve real-world problems.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- CONTACT -->
+<!-- ============================================= -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <p class="section-eyebrow">Let's Connect</p>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-sub">I'm always open to discussing new projects, opportunities, or internships.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:devasena.g@example.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <h4>Email</h4>
+        <p>devasena.g@example.com</p>
+      </a>
+
+      <a href="https://github.com/Devasena-6666" target="_blank" rel="noopener" class="contact-card">
+        <i class="fa-brands fa-github"></i>
+        <h4>GitHub</h4>
+        <p>github.com/Devasena-6666</p>
+      </a>
+
+      <a href="#" class="contact-card">
+        <i class="fa-brands fa-linkedin"></i>
+        <h4>LinkedIn</h4>
+        <p>linkedin.com/in/devasena-g</p>
+      </a>
+
+      <div class="contact-card contact-card-static">
+        <i class="fa-solid fa-location-dot"></i>
+        <h4>Location</h4>
+        <p>Tamil Nadu, India</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================= -->
+<!-- FOOTER -->
+<!-- ============================================= -->
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-logo">DG<span class="logo-dot">.</span></div>
+    <p>Thank you for visiting my portfolio.</p>
+    <p class="footer-made">Made with <i class="fa-solid fa-heart"></i> using HTML &amp; CSS.</p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/Devasena-6666" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:devasena.g@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <p class="footer-copy">&copy; 2026 Devasena G. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
